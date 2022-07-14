@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Churrascometro</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png">
     <script src="script.js"></script>
 </head>
-<body>
+<body oninput="errors()">
+
+
   <div class="container">
     <h1>Churrascômetro</h1>
- <input id="adultos" type="number" placeholder="Adultos">
+   
+ <input id="adultos" type="number" placeholder="Adultos *" required>
  <input id="crianca" type="number" placeholder="Crianças">
- <input id="duracao" type="number" placeholder="Duração (H)">
- <button onclick="calc()">Calcular</button>
+ <input id="duracao" type="number" placeholder="Duração (H) *" required>
+ <button onclick="calc()">Calcular</button>  
 <div id="resultado"></div>
   </div>
 </body>
