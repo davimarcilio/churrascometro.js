@@ -10,5 +10,7 @@ Fiz este churrascometro a partir de um video do curso full-stack(Programador BR)
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 HTML
+
 CSS
+
 JavaScript
